@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SNACK SIZE DATA | Better Data &gt; Smarter AI &gt; Small Bites</title>
+  <meta name="description" content="Fractional CDO and governed AI services for $5M–$50M SMBs. Fixed-scope data and AI sprints without the $250K full-time hire." />
+  
+  <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Plus Jakarta Sans', 'sans-serif'],
+          },
+          colors: {
+            slatebrand: {
+              950: '#0F172A',
+              900: '#1B263B',
+              800: '#24344D',
+              700: '#334155',
+            },
+            coral: {
+              500: '#F05A28',
+              600: '#D94818',
+              400: '#FF7849',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    /* Subtle isometric grid background pattern */
+    .bg-iso-grid {
+      background-image: 
+        linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+      background-size: 48px 48px;
+    }
+  </style>
+</head>
+<body class="bg-white text-slate-800 antialiased selection:bg-coral-500 selection:text-white">
+
+  <!-- NAVIGATION BAR -->
+  <header class="sticky top-0 z-50 bg-slatebrand-900/95 backdrop-blur border-b border-slate-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <!-- Brand Lockup -->
+      <a href="#" class="flex items-center gap-3 group">
+        <!-- Inline SVG: 3-Cube Cocktail Skewer -->
+        <svg class="w-10 h-10 shrink-0 transition-transform duration-300 group-hover:scale-105" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Snack Size Data Logo">
+          <!-- Skewer Needle -->
+          <line x1="20" y1="80" x2="76" y2="24" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+          <!-- Ring Handle -->
+          <circle cx="81" cy="19" r="6" stroke="#FFFFFF" stroke-width="3.5"/>
+          <!-- Bottom White Cube -->
+          <g transform="translate(29, 71)">
+            <polygon points="0,-13 12,-6 0,1 -12,-6" fill="#FFFFFF"/>
+            <polygon points="-12,-6 0,1 0,14 -12,7" fill="#E2E8F0"/>
+            <polygon points="0,1 12,-6 12,7 0,14" fill="#CBD5E1"/>
+          </g>
+          <!-- Middle Coral Cube -->
+          <g transform="translate(48, 52)">
+            <polygon points="0,-13 12,-6 0,1 -12,-6" fill="#FF7849"/>
+            <polygon points="-12,-6 0,1 0,14 -12,7" fill="#F05A28"/>
+            <polygon points="0,1 12,-6 12,7 0,14" fill="#C2410C"/>
+          </g>
+          <!-- Top White Cube -->
+          <g transform="translate(67, 33)">
+            <polygon points="0,-13 12,-6 0,1 -12,-6" fill="#FFFFFF"/>
+            <polygon points="-12,-6 0,1 0,14 -12,7" fill="#E2E8F0"/>
+            <polygon points="0,1 12,-6 12,7 0,14" fill="#CBD5E1"/>
+          </g>
+        </svg>
+
+        <div class="flex flex-col">
+          <div class="font-display font-extrabold text-xl tracking-tight leading-none">
+            <span class="text-white">SNACK</span>
+            <span class="text-coral-500">SIZE</span>
+            <span class="text-white">DATA</span>
+          </div>
+          <span class="text-[11px] font-medium text-slate-300 tracking-wide mt-1">
+            Better Data <span class="text-coral-400">&gt;</span> Smarter AI <span class="text-coral-400">&gt;</span> Small Bites
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+        <a href="#problem" class="hover:text-white transition-colors">The Problem</a>
+        <a href="#menu" class="hover:text-white transition-colors">Services &amp; Pricing</a>
+        <a href="#how-we-work" class="hover:text-white transition-colors">How We Work</a>
+        <a href="#about" class="hover:text-white transition-colors">About</a>
+      </nav>
+
+      <!-- Header CTA -->
+      <div class="flex items-center gap-3">
+        <a href="#book" class="inline-flex items-center justify-center px-4 py-2.5 rounded-lg bg-coral-500 hover:bg-coral-600 text-white font-display font-bold text-sm transition-colors shadow-sm">
+          Book a 20-Min Call
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="bg-slatebrand-900 bg-iso-grid text-white py-20 lg:py-28 border-b border-slate-800">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slatebrand-800 border border-slate-700 text-coral-400 text-xs font-display font-bold uppercase tracking-wider mb-6">
+        Fractional CDO &amp; Governed AI for Growing SMBs ($5M–$50M)
+      </div>
+
+      <h1 class="font-display font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-white leading-[1.1] mb-6">
+        Smart data, <span class="text-coral-500">small bites.</span>
+      </h1>
+
+      <p class="font-display font-semibold text-xl sm:text-2xl text-slate-200 max-w-3xl mx-auto mb-6">
+        Enterprise-grade data strategy and hallucination-tested AI—packaged into fixed-scope sprints without the $250K full-time hire.
+      </p>
+
+      <p class="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed mb-10">
+        Most growing companies don’t have an AI problem—they have a <em class="text-white font-medium not-italic">data context</em> problem. We untangle your disconnected spreadsheets, align your core business metrics, and deploy governed AI agents your leadership team can actually trust.
+      </p>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="#book" class="w-full sm:w-auto px-7 py-4 rounded-lg bg-coral-500 hover:bg-coral-600 text-white font-display font-bold text-base transition-all shadow-lg shadow-coral-500/20">
+          Start With a 1-Week Checkup ($2,500)
+        </a>
+        <a href="#menu" class="w-full sm:w-auto px-7 py-4 rounded-lg bg-slatebrand-800 hover:bg-slate-700 text-white border border-slate-700 font-display font-semibold text-base transition-colors">
+          Explore the 5-SKU Menu &darr;
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE PROBLEM SECTION -->
+  <section id="problem" class="py-20 lg:py-24 bg-slate-50 border-b border-slate-200">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mb-12">
+        <p class="text-coral-600 font-display font-bold text-sm uppercase tracking-wider mb-2">The Bottleneck</p>
+        <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-slatebrand-900 tracking-tight mb-4">
+          You can’t put AI on top of broken definitions.
+        </h2>
+        <p class="text-lg text-slate-600 leading-relaxed">
+          Right now, leadership teams everywhere are pasting messy CSV exports into ChatGPT or Copilot—and getting confident-sounding hallucinations in return.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6 mb-10">
+        <!-- Card 1 -->
+        <div class="bg-white p-7 rounded-xl border border-slate-200 shadow-sm">
+          <div class="w-10 h-10 rounded-lg bg-coral-500/10 text-coral-600 flex items-center justify-center font-display font-extrabold text-lg mb-4">01</div>
+          <h3 class="font-display font-bold text-lg text-slatebrand-900 mb-2">Conflicting Numbers</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Sales, Finance, and Ops don’t agree on the numbers. If three departments have three different formulas for <strong>Gross Margin</strong>, <strong>Active Customer</strong>, or <strong>Churn</strong>, AI just multiplies the confusion.
+          </p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white p-7 rounded-xl border border-slate-200 shadow-sm">
+          <div class="w-10 h-10 rounded-lg bg-coral-500/10 text-coral-600 flex items-center justify-center font-display font-extrabold text-lg mb-4">02</div>
+          <h3 class="font-display font-bold text-lg text-slatebrand-900 mb-2">Bloated Agencies</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Enterprise agencies move too slow and cost too much. You don’t need a six-figure consulting firm or an open-ended two-year data warehouse rebuild.
+          </p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white p-7 rounded-xl border border-slate-200 shadow-sm">
+          <div class="w-10 h-10 rounded-lg bg-coral-500/10 text-coral-600 flex items-center justify-center font-display font-extrabold text-lg mb-4">03</div>
+          <h3 class="font-display font-bold text-lg text-slatebrand-900 mb-2">Premature C-Suite Hire</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            You’re not ready for a $250K+ full-time Chief Data Officer. You need senior architectural direction and hands-on execution—right-sized for your stage of growth.
+          </p>
+        </div>
+      </div>
+
+      <!-- The Fix Callout -->
+      <div class="bg-slatebrand-900 text-white p-6 sm:p-8 rounded-xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div>
+          <span class="text-coral-400 font-display font-bold uppercase text-xs tracking-wider">The Fix</span>
+          <p class="font-display font-bold text-lg sm:text-xl mt-1">
+            Modular, bite-sized data and AI deliverables with fixed prices, clear timelines, and zero scope creep.
+          </p>
+        </div>
+        <a href="#menu" class="shrink-0 px-5 py-2.5 rounded-lg bg-coral-500 hover:bg-coral-600 text-white font-display font-bold text-sm transition-colors">
+          See Pricing &rarr;
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE MENU (5-SKU SERVICES & PRICING) -->
+  <section id="menu" class="py-20 lg:py-24 bg-white border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+        <div class="max-w-2xl">
+          <p class="text-coral-600 font-display font-bold text-sm uppercase tracking-wider mb-2">Productized Menu</p>
+          <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-slatebrand-900 tracking-tight mb-3">
+            Pick the exact bite you need.
+          </h2>
+          <p class="text-lg text-slate-600">
+            Every engagement has a fixed price, a tangible deliverable, and a hard stop. Start small with a 5-day diagnostic or snap modules together as you scale.
+          </p>
+        </div>
+
+        <!-- Currency Switcher -->
+        <div class="inline-flex items-center bg-slate-100 p-1 rounded-lg border border-slate-200 self-start">
+          <button id="btn-cad" onclick="setCurrency('CAD')" class="px-3.5 py-1.5 rounded-md text-xs font-display font-bold bg-slatebrand-900 text-white transition-colors">
+            CAD ($)
+          </button>
+          <button id="btn-usd" onclick="setCurrency('USD')" class="px-3.5 py-1.5 rounded-md text-xs font-display font-bold text-slate-600 hover:text-slatebrand-900 transition-colors">
+            USD ($)
+          </button>
+        </div>
+      </div>
+
+      <!-- Top Row: 3 Fixed-Scope Sprints -->
+      <div class="grid lg:grid-cols-3 gap-8 mb-8">
+        <!-- SKU 1 -->
+        <div class="rounded-2xl border border-slate-200 bg-white p-7 flex flex-col justify-between shadow-sm hover:border-slate-300 transition-all">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-4">
+              <span class="px-2.5 py-1 rounded bg-slate-100 text-slatebrand-900 font-display font-bold text-xs">1 Week Fixed</span>
+              <span class="text-xs font-medium text-slate-500">Diagnostic</span>
+            </div>
+            <h3 class="font-display font-extrabold text-xl text-slatebrand-900 mb-1">1. Data &amp; AI Readiness Checkup</h3>
+            <p class="text-sm text-coral-600 font-medium mb-4">A 5-day sanity check before you spend big.</p>
+            <div class="mb-6 pb-6 border-b border-slate-100">
+              <span class="price-tag font-display font-extrabold text-3xl text-slatebrand-900" data-cad="$2,500" data-usd="$1,900">$2,500</span>
+              <span class="currency-label text-xs font-semibold text-slate-500 ml-1">CAD</span>
+            </div>
+            <p class="text-xs text-slate-500 mb-4"><strong class="text-slate-700">Best for:</strong> Founders and COOs who want a fast, low-risk audit of where bad data is costing them money.</p>
+            <ul class="space-y-2.5 text-sm text-slate-700 mb-8">
+              <li class="flex items-start gap-2"><span class="text-coral-500 font-bold">&check;</span> Read-only schema &amp; hygiene audit of up to 3 core systems (CRM, accounting, ops)</li>
+              <li class="flex items-start gap-2"><span class="text-coral-500 font-bold">&check;</span> Scored <strong>DELTATAT Maturity Matrix</strong> across 7 readiness dimensions</li>
+              <li class="flex items-start gap-2"><span class="text-coral-500 font-bold">&check;</span> <strong>"Top 3 Data Fires" Action Brief</strong> ranked by ROI vs. effort</li>
+              <li class="flex items-start gap-2"><span class="text-coral-500 font-bold">&check;</span> Monday Kickoff &rarr; Friday Live Executive Readout</li>
+            </ul>
+          </div>
+          <a href="#book" class="w-full py-3 px-4 rounded-lg border border-slatebrand-900 text-slatebrand-900 hover:bg-slatebrand-900 hover:text-white font-display font-bold text-sm text-center transition-colors">
+            Book Checkup
+          </a>
+        </div>
+
+        <!-- SKU 2 -->
+        <div class="rounded-2xl border border-slate-200 bg-white p-7 flex flex-col justify-between shadow-sm hover:border-slate-300 transition-all">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-4">
+              <span class="px-2.5 py-1 rounded bg-slate-100 text-slatebrand-900 font-display font-bold text-xs">2 Weeks Fixed</span>
+              <span class="text-xs font-medium text-slate-500">Alignment</span>
+            </div>
+            <h3 class="font-display font-extrabold text-xl text-slatebrand-900 mb-1">2. KPI &amp; Semantic Blueprint</h3>
+            <p class="text-sm text-coral-600 font-medium mb-4">One definition for every number.</p>
+            <div class="mb-6 pb-6 border-b border-slate-100">
+              <span class="price-tag font-display font-extrabold text-3xl text-slatebrand-900" data-cad="$6,500" data-usd="$5,000">$6,500</span>
+              <span class="currency-label text-xs font-semibold text-slate-500 ml-1">CAD</span>
+            </div>
+            <p class="text-xs text-slate-500 mb-4"><strong class="text-slate-700">Best for:</strong> Leadership teams tired of arguing over whose spreadsheet is right.</p>
+            <ul class="space-y-2.5 text-sm text-slate-700 mb-8">
+              <li class="flex items-start gap-2"><span class="text-coral-500 font-bold">&check;</span> Cross-functional alignment on up to <strong>15 core business metrics</strong> (Margin, Churn, LTV)</li>
+              <li class="flex items-start gap-2"><span class="text-coral-500 font-bold">&check;</span> Production-ready <strong>Business Glossary &amp; Metric Spec</strong> (codified in dbt / Snowflake YAML)</li>
+              <li class="flex items-start gap-2"><span class="text-coral-500 font-bold">&check;</span> Lightweight Data Architecture Map so humans and AI speak the same language</li>
+            </ul>
+          </div>
+          <a href="#book" class="w-full py-3 px-4 rounded-lg border border-slatebrand-900 text-slatebrand-900 hover:bg-slatebrand-900 hover:text-white font-display font-bold text-sm text-center transition-colors">
+            Scope Blueprint
+          </a>
+        </div>
+
+        <!-- SKU 3 (Signature Sprint - Highlighted) -->
+        <div class="rounded-2xl border-2 border-coral-500 bg-slatebrand-900 text-white p-7 flex flex-col justify-between shadow-xl relative">
+          <div class="absolute -top-3.5 right-6 px-3 py-0.5 rounded-full bg-coral-500 text-white font-display font-bold text-xs uppercase tracking-wider">
+            Signature Sprint
+          </div>
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-4">
+              <span class="px-2.5 py-1 rounded bg-slatebrand-800 text-coral-400 font-display font-bold text-xs">4 Weeks Fixed</span>
+              <span class="text-xs font-medium text-slate-400">Build &amp; Launch</span>
+            </div>
+            <h3 class="font-display font-extrabold text-xl text-white mb-1">3. Governed AI Agent Launchpad</h3>
+            <p class="text-sm text-coral-400 font-medium mb-4">Plain-English AI that never guesses.</p>
+            <div class="mb-6 pb-6 border-b border-slate-800">
+              <span class="price-tag font-display font-extrabold text-3xl text-white" data-cad="$18,000" data-usd="$14,000">$18,000</span>
+              <span class="currency-label text-xs font-semibold text-slate-400 ml-1">CAD</span>
+            </div>
+            <p class="text-xs text-slate-300 mb-4"><strong class="text-white">Best for:</strong> Ops-heavy SMBs ready to automate reporting and query data in plain English.</p>
+            <ul class="space-y-2.5 text-sm text-slate-200 mb-8">
+              <li class="flex items-start gap-2"><span class="text-coral-400 font-bold">&check;</span> Lightweight cloud warehouse setup (Fivetran + Snowflake + dbt) for SMB budgets</li>
+              <li class="flex items-start gap-2"><span class="text-coral-400 font-bold">&check;</span> Core customer &amp; revenue deduplication across disconnected systems</li>
+              <li class="flex items-start gap-2"><span class="text-coral-400 font-bold">&check;</span> <strong>1 Hallucination-Tested AI Data Agent</strong> (verified on a 10-question accuracy benchmark) + <strong>1 Core Executive Dashboard</strong></li>
+            </ul>
+          </div>
+          <a href="#book" class="w-full py-3 px-4 rounded-lg bg-coral-500 hover:bg-coral-600 text-white font-display font-bold text-sm text-center transition-colors">
+            Launch AI Agent
+          </a>
+        </div>
+      </div>
+
+      <!-- Bottom Row: 2 Ongoing Subscriptions / Retainers -->
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- SKU 4 -->
+        <div class="rounded-2xl border border-slate-200 bg-slate-50 p-7 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-3">
+              <span class="px-2.5 py-1 rounded bg-white border border-slate-200 text-slatebrand-900 font-display font-bold text-xs">Monthly Subscription</span>
+              <span class="text-xs font-medium text-slate-500">Technical Care</span>
+            </div>
+            <div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 mb-3">
+              <h3 class="font-display font-extrabold text-xl text-slatebrand-900">4. Semantic &amp; Agent Care Plan</h3>
+              <div>
+                <span class="price-tag font-display font-extrabold text-2xl text-slatebrand-900" data-cad="$2,500" data-usd="$2,000">$2,500</span>
+                <span class="currency-label text-xs font-semibold text-slate-500">CAD/mo</span>
+              </div>
+            </div>
+            <p class="text-sm text-coral-600 font-medium mb-4">Keep your data sharp and your cloud bill lean.</p>
+            <ul class="space-y-2 text-sm text-slate-700 mb-6">
+              <li class="flex items-start gap-2"><span class="text-coral-500 font-bold">&check;</span> Monthly <strong>AI Hallucination &amp; Query Log Audit</strong> to eliminate drift</li>
+              <li class="flex items-start gap-2"><span class="text-coral-500 font-bold">&check;</span> Pipeline &amp; schema break-fix monitoring (Fivetran / dbt / Snowflake)</li>
+              <li class="flex items-start gap-2"><span class="text-coral-500 font-bold">&check;</span> Snowflake FinOps cost tuning + up to 2 metric updates per month</li>
+            </ul>
+          </div>
+          <a href="#book" class="inline-flex items-center text-sm font-display font-bold text-slatebrand-900 hover:text-coral-600 transition-colors">
+            Inquire About Care Plan &rarr;
+          </a>
+        </div>
+
+        <!-- SKU 5 -->
+        <div class="rounded-2xl border border-slate-200 bg-slate-50 p-7 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-3">
+              <span class="px-2.5 py-1 rounded bg-white border border-slate-200 text-slatebrand-900 font-display font-bold text-xs">Quarterly Retainer</span>
+              <span class="text-xs font-medium text-slate-500">Executive Leadership</span>
+            </div>
+            <div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 mb-3">
+              <h3 class="font-display font-extrabold text-xl text-slatebrand-900">5. Fractional Chief Data Officer</h3>
+              <div>
+                <span class="price-tag font-display font-extrabold text-2xl text-slatebrand-900" data-cad="$5,500" data-usd="$4,200">$5,500</span>
+                <span class="currency-label text-xs font-semibold text-slate-500">CAD/mo</span>
+              </div>
+            </div>
+            <p class="text-sm text-coral-600 font-medium mb-4">C-suite data leadership, scaled to fit.</p>
+            <ul class="space-y-2 text-sm text-slate-700 mb-6">
+              <li class="flex items-start gap-2"><span class="text-coral-500 font-bold">&check;</span> Weekly 45-minute executive sync + Agile analytics backlog prioritization</li>
+              <li class="flex items-start gap-2"><span class="text-coral-500 font-bold">&check;</span> Data Governance Council leadership and software vendor evaluation</li>
+              <li class="flex items-start gap-2"><span class="text-coral-500 font-bold">&check;</span> Hiring support and hands-on mentorship for junior analysts</li>
+            </ul>
+          </div>
+          <a href="#book" class="inline-flex items-center text-sm font-display font-bold text-slatebrand-900 hover:text-coral-600 transition-colors">
+            Discuss Fractional CDO &rarr;
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW WE WORK (GUARDRAILS) -->
+  <section id="how-we-work" class="py-20 bg-slatebrand-900 text-white border-b border-slate-800">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <p class="text-coral-400 font-display font-bold text-sm uppercase tracking-wider mb-2">Operating Principles</p>
+        <h2 class="font-display font-extrabold text-3xl sm:text-4xl tracking-tight">
+          Built for busy operators—not endless billing.
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-slatebrand-800/70 border border-slate-700/80 p-7 rounded-xl">
+          <h3 class="font-display font-bold text-lg text-coral-400 mb-2">Paid Diagnostics Over Free Pitching</h3>
+          <p class="text-slate-300 text-sm leading-relaxed">
+            No drawn-out proposal cycles. Start with a 1-week Readiness Checkup and walk away with a ranked, actionable roadmap by Friday.
+          </p>
+        </div>
+
+        <div class="bg-slatebrand-800/70 border border-slate-700/80 p-7 rounded-xl">
+          <h3 class="font-display font-bold text-lg text-coral-400 mb-2">100% Client-Owned Stack</h3>
+          <p class="text-slate-300 text-sm leading-relaxed">
+            You own your Snowflake, Fivetran, dbt, and BI accounts directly—zero proprietary black boxes, vendor lock-in, or pass-through software markups.
+          </p>
+        </div>
+
+        <div class="bg-slatebrand-800/70 border border-slate-700/80 p-7 rounded-xl">
+          <h3 class="font-display font-bold text-lg text-coral-400 mb-2">Weekly Live Demos</h3>
+          <p class="text-slate-300 text-sm leading-relaxed">
+            Every build sprint runs on a mandatory weekly Thursday walkthrough of working data models, live dashboards, and tested AI prompts.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT THE FOUNDER -->
+  <section id="about" class="py-20 lg:py-24 bg-white border-b border-slate-200">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-slate-50 border border-slate-200 rounded-2xl p-8 sm:p-12">
+        <p class="text-coral-600 font-display font-bold text-sm uppercase tracking-wider mb-2">About the Founder</p>
+        <h2 class="font-display font-extrabold text-3xl text-slatebrand-900 tracking-tight mb-6">
+          Enterprise data rigor, right-sized for SMBs.
+        </h2>
+
+        <div class="space-y-4 text-slate-700 leading-relaxed text-base">
+          <p>
+            Hi, I’m <strong class="text-slatebrand-900">Michael Ferrett</strong>—founder of <strong class="text-slatebrand-900">Snack Size Data</strong>.
+          </p>
+          <p>
+            Over the past 13+ years, I’ve built and scaled enterprise business intelligence, data governance councils, and production AI data agents for multi-unit service and retail leaders—including <strong class="text-slatebrand-900">1-800-GOT-JUNK? / O2E Brands</strong> and <strong class="text-slatebrand-900">AutoCanada</strong>—supporting over 1,000 daily operational users.
+          </p>
+          <p>
+            I hold a <strong class="text-slatebrand-900">Master of Management Analytics (MMA)</strong> from Queen’s University and am a <strong class="text-slatebrand-900">Certified Scrum Product Owner</strong>, bridging hands-on modern architecture (<em>Snowflake, dbt, Fivetran, Tableau, and MCP AI Agents</em>) with practical, bottom-line business strategy.
+          </p>
+          <p>
+            I started Snack Size Data to give $5M–$50M companies the exact same governed data and AI advantage—delivered in fast, digestible bites.
+          </p>
+        </div>
+
+        <div class="mt-8 pt-6 border-t border-slate-200 flex flex-wrap gap-3">
+          <span class="px-3 py-1 rounded-full bg-white border border-slate-200 text-xs font-semibold text-slate-700">Queen’s MMA</span>
+          <span class="px-3 py-1 rounded-full bg-white border border-slate-200 text-xs font-semibold text-slate-700">Snowflake &amp; dbt</span>
+          <span class="px-3 py-1 rounded-full bg-white border border-slate-200 text-xs font-semibold text-slate-700">Governed AI Agents</span>
+          <span class="px-3 py-1 rounded-full bg-white border border-slate-200 text-xs font-semibold text-slate-700">Certified Scrum Product Owner</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER CTA -->
+  <footer id="book" class="bg-slatebrand-950 text-white py-20">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="font-display font-extrabold text-3xl sm:text-4xl tracking-tight mb-4">
+        Ready to take the guesswork out of your numbers?
+      </h2>
+      <p class="text-slate-300 text-lg max-w-2xl mx-auto mb-8">
+        No hard sell, no bloated retainers. Let’s spend 20 minutes talking through where your data lives today and which bite makes the most sense to start with.
+      </p>
+
+      <!-- Replace href below with your Cal.com or Calendly link -->
+      <a href="mailto:michael@snacksizedata.com?subject=20-Min%20Snack%20Size%20Data%20Intro%20Call" class="inline-flex items-center justify-center px-8 py-4 rounded-lg bg-coral-500 hover:bg-coral-600 text-white font-display font-bold text-base transition-all shadow-lg shadow-coral-500/20 mb-12">
+        Book a 20-Minute Intro Call
+      </a>
+
+      <div class="pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-4">
+        <div class="font-display font-bold text-slate-300">
+          SNACK <span class="text-coral-500">SIZE</span> DATA &bull; Better Data &gt; Smarter AI &gt; Small Bites
+        </div>
+        <div>
+          Vancouver, BC &bull; Serving SMBs across North America &bull;
+          <a href="https://www.linkedin.com/in/michael-ferrett/" target="_blank" rel="noopener" class="text-slate-300 hover:text-coral-400 underline ml-1">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Currency Toggle Script -->
+  <script>
+    function setCurrency(currency) {
+      const prices = document.querySelectorAll('.price-tag');
+      const labels = document.querySelectorAll('.currency-label');
+      const btnCad = document.getElementById('btn-cad');
+      const btnUsd = document.getElementById('btn-usd');
+
+      prices.forEach(el => {
+        el.textContent = currency === 'CAD' ? el.dataset.cad : el.dataset.usd;
+      });
+
+      labels.forEach(el => {
+        if (el.textContent.includes('/mo')) {
+          el.textContent = `${currency}/mo`;
+        } else {
+          el.textContent = currency;
+        }
+      });
+
+      if (currency === 'CAD') {
+        btnCad.className = 'px-3.5 py-1.5 rounded-md text-xs font-display font-bold bg-slatebrand-900 text-white transition-colors';
+        btnUsd.className = 'px-3.5 py-1.5 rounded-md text-xs font-display font-bold text-slate-600 hover:text-slatebrand-900 transition-colors';
+      } else {
+        btnUsd.className = 'px-3.5 py-1.5 rounded-md text-xs font-display font-bold bg-slatebrand-900 text-white transition-colors';
+        btnCad.className = 'px-3.5 py-1.5 rounded-md text-xs font-display font-bold text-slate-600 hover:text-slatebrand-900 transition-colors';
+      }
+    }
+  </script>
+</body>
+</html>
